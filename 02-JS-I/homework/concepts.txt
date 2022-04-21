@@ -1,0 +1,22 @@
+Homework: Introducción a Javascript I
+
+Variables:
+	Es una caja o un almacén donde se guardan los valores (palabras, números, letras, etc.).
+
+Strings:
+	Son las palabras que se almacenan en las cajas(variables) y siempre tienen que estar entre comillas ("").
+
+Funciones:
+	Se usan para trabajar con las variables, donde vamos a poder calcularlas, cambiarlas, etc. Se pueden "invocar" cuando son necesarias.
+
+	Argumentos:
+		Los argumentos se utilizan para trabajar dentro de las funciones.
+
+	return:
+		Muestra en la pantalla las palabras, números, etc. que queremos. Tambien cuando llegamos al return el código se detiene y muestra lo que tiene que mostrar.
+
+Declaraciones "if":
+	Las declaraciones if toman decisiones donde son necesarias en nuestro código.
+
+Valores booleanos (true false):
+	Son los que indican cuando nuestro código muestra algo verdadero(true) o falso(false).
