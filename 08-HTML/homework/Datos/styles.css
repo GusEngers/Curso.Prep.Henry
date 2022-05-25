@@ -1,0 +1,28 @@
+body{
+    font-family:'Courier New', Courier, monospace;
+    border:10px solid black;
+    background-color: rgb(181, 247, 225);
+}
+#idDesc{
+    position: relative;
+    bottom: 50px;
+}
+p{
+    position: relative;
+    left: 10px;
+}
+img{
+    border: 2px solid black;
+}
+.lista {
+    position: relative;
+    left: 200px;
+    bottom: 110px;
+}
+h3{
+    border-top:10px solid black;
+    border-bottom: 10px solid black;
+    background-color: blue;
+    padding: 10px;
+    color: white;
+}

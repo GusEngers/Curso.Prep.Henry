@@ -43,6 +43,14 @@ function capicua(numero){
   //La misma debe retornar: "Es capicua" si el número se número que se lee igual de 
   //izquierda a derecha que de derecha a izquierda. Caso contrario retorna "No es capicua"
   //Escribe tu código aquí
+  var a1 = numero.toString()
+  a1 = Array.from(a1)
+  var a2 = a1.reverse()
+  a2 = a2.join("")
+  a2 = parseFloat(a2)
+  if (numero === a2) {
+    return "Es capicua"
+  } return "No es capicua"
 }
 
 
@@ -50,8 +58,10 @@ function deleteAbc(cadena){
   //Define una función que elimine las letras "a", "b" y "c" de la cadena dada 
   //y devuelva la versión modificada o la misma cadena, en caso de contener dichas letras.
   //Escribe tu código aquí
+  var matriz = Array.from(cadena)
+  var matriz2 = matriz.filter(element => element !== "a" && element !== "b" && element !== "c").join("")
+  return matriz2
 }
-
 
 function sortArray(arr) {
   //La función recibe una matriz de strings. Ordena la matriz en orden creciente de longitudes de cadena
